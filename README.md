@@ -14,14 +14,18 @@
 ## ساخت مخزن گیت‌هاب
 ابتدا یک مخزن گیت‌هاب برای آزمایش مذکور توسط یکی از اعضا ساخته‌شده و سپس عضو دیگر به عنوان collaborator به پروژه اضافه شد. در تنظیمات مخزن، برنچ main به عنوان پروتکتد لحاظ شد تا بدون pull request انجام تغییرات در main مجاز نباشد. همچنین همان‌طور که در شکل زیر مشخص است، تیک require pull requests باید فعال باشد:
 
-![alt text](./images/require_pull_req.jpeg)
-
-
+<img width="1464" alt="image" src="https://github.com/sayehjarollahi/SE-lab-hw1/assets/62176180/10630d02-a591-47be-92c0-82ac723067f1">
 
 ## اضافه کردن برنچ‌ها
-ابتدا یک برنچ develop به پروژه اضافه شد تا روند توسعه در این برنچ و نه روی main انجام شود. سپس برای هر operation یک برنچ ساخته‌ شد و پس اضافه کردن بخش مورد نظر برنچ مذکور یک pull request برای مرج شدن با develop داد که owner مخزن پس از بررسی برنچ مد نظر اگر مشکلی وجود نداشت این درخواست را تایید می‌کرد. تصاویر زیر این مرحله را برای برنچ feat/root نشان می‌دهد:
+ابتدا یک برنچ develop به پروژه اضافه شد تا روند توسعه در این برنچ و نه روی main انجام شود. سپس برای هر operation یک برنچ ساخته‌ شد و پس اضافه کردن بخش مورد نظر برنچ مذکور یک pull request برای مرج شدن با develop داد که owner مخزن پس از بررسی برنچ مد نظر اگر مشکلی وجود نداشت این درخواست را تایید می‌کرد. تصویر اول برنچ‌هایی که با برنچ main مرج شده‌اند را نشان می‌دهد و تصاویر بعدی روند pull request را برای برنچ feature نشان می‌دهد:
 
-![alt text](./images/pull_req_1.jpeg) ![alt text](./images/pull_req_2.jpeg) ![alt text](./images/pull_req_3.jpeg)![alt text](./images/pull_req_4.jpeg) ![alt text](./images/pull_req_5.jpeg)
+<img width="1263" alt="image" src="https://github.com/sayehjarollahi/SE-lab-hw1/assets/62176180/c83f245c-03b3-4b9f-aa45-aa48e6e9fb30">
+<img width="1447" alt="image" src="https://github.com/sayehjarollahi/SE-lab-hw1/assets/62176180/0298f897-18a1-4af6-80ac-4a92f68b9b48">
+<img width="1449" alt="image" src="https://github.com/sayehjarollahi/SE-lab-hw1/assets/62176180/c413d5ae-a0ca-42ee-8c35-1a3fda68ab96">
+<img width="1470" alt="image" src="https://github.com/sayehjarollahi/SE-lab-hw1/assets/62176180/84194b0a-8063-4853-a4ea-583ff605f39e">
+پس از اینکه ریویوو انجام شود، برنچ feature با برنچ main مرج می‌شود. 
+
+
 
 ## حل کردن conflictهای ایجاد‌شده
 در طول فرایند مرج کردن برنچ‌ها دو conflict پس از pull request ایجاد شد که یکی به علت عقب بودن tip برنچ مد نظر از برنچ base و دیگری به سبب ایجاد تغییر اشتباهی توسط یکی از اعضا بر روی بخش مربوط به برنچ یکی دیگر از operationها بود. تصاویری از دو conflict ایجادشده و نحوه‌ی حل یکی از آن‌ها در قسمت زیر اضافه شده است:
