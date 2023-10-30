@@ -1,5 +1,5 @@
 from django.db.models import Model, ForeignKey, CharField, URLField, CASCADE
-from .advertiser import Advertiser
+from advertiser_management.models.advertiser import Advertiser
 
 
 class Ad(Model):
@@ -41,3 +41,4 @@ class Ad(Model):
 
     def __str__(self):
         return str(self.advertiser) + ' : ' + str(self.title)
+
