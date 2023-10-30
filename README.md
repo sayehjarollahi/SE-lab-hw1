@@ -24,8 +24,21 @@
 
 ## حل کردن conflictهای ایجاد‌شده
 در طول فرایند مرج کردن برنچ‌ها دو conflict پس از pull request ایجاد شد که یکی به علت عقب بودن tip برنچ مد نظر از برنچ base و دیگری به سبب ایجاد تغییر اشتباهی توسط یکی از اعضا بر روی بخش مربوط به برنچ یکی دیگر از operationها بود. تصاویری از دو conflict ایجادشده و نحوه‌ی حل یکی از آن‌ها در قسمت زیر اضافه شده است:
+### conflict اول
 
-![alt text](./images/conflict_1.jpeg) ![alt text](./images/conflict_2_1.jpeg) ![alt text](./images/conflict_2_2.jpeg) ![alt text](./images/conflict_2_3.jpeg) ![alt text](./images/conflict_2_4.jpeg) ![alt text](./images/conflict_2_5.jpeg) ![alt text](./images/conflict_2_6.jpeg)
+![Screenshot (217)](https://github.com/sayehjarollahi/SE-lab-hw1/assets/62180624/6db12007-aadc-49f8-9ba8-39623bac84b6)
+![Screenshot (218)](https://github.com/sayehjarollahi/SE-lab-hw1/assets/62180624/22cd1589-80e8-410e-b52b-4d0c2aa293c0)
+![Screenshot (220)](https://github.com/sayehjarollahi/SE-lab-hw1/assets/62180624/07214fb5-7199-4b78-958a-02e95b2c45e4)
+![Screenshot (221)](https://github.com/sayehjarollahi/SE-lab-hw1/assets/62180624/b097b470-55c3-4afe-85c1-c695fbe7d937)
+
+
+### conflict دوم
+
+![Screenshot (222)](https://github.com/sayehjarollahi/SE-lab-hw1/assets/62180624/7a51040a-987d-4d40-8647-e63f74509d44)
+![Screenshot (223)](https://github.com/sayehjarollahi/SE-lab-hw1/assets/62180624/f2f51dbd-1bb6-4fa7-bcc7-a0f7a3628048)
+![Screenshot (224)](https://github.com/sayehjarollahi/SE-lab-hw1/assets/62180624/c196016c-bd5c-4612-9fa1-73e90dbebe1e)
+
+
 
 ## پرسش‌ها
 
