@@ -1,0 +1,20 @@
+from django.db.models import CharField
+from advertiser_management.models.base_model import BaseAdvertising
+
+
+class Advertiser(BaseAdvertising):
+    name = CharField(
+        max_length=20,
+        verbose_name='نام'
+    )
+
+    class Meta:
+        verbose_name = 'تبلیغ کننده'
+        verbose_name_plural = 'تبلیغ کنندگان'
+
+    def __str__(self):
+        return self.name
+
+    def update_empty_on_view(self):
+        self.views += 1
+        self.save(update_fields=['views'])
